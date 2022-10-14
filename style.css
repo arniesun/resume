@@ -72,7 +72,11 @@ body {
   transform: translate(10%);
   border:10px;
 }
+#more {
+  display: none;
+}
 
+}
 
 @media(min-width:1000px){
   body{
