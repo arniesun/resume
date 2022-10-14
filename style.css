@@ -35,9 +35,10 @@ body {
 
 
 .section1 {
-  border-bottom: 1px dotted #aaa;
+  border-bottom: 2px dotted #aaa;
   border-color: gold;
-  font-weight: bold
+  font-weight: bold;
+  margin: 0%
 }
 
 
@@ -52,7 +53,35 @@ body {
 
 
 .section4 {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  border-color: black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-right: 60%
 }
+
+.box {
+  width: px;
+	height: 180px;
+	border: 2px solid;
+	font-size: 40px;
+	text-align: center;
+ float: right;
+  transition: transform;
+  }
+
+.parent:hover .box{
+  transform: translate(10%);
+  border:10px;
+}
+
+
+@media(min-width:1000px){
+  body{
+    font-size:1.5rem;
+    line-height: 1.5;
+  }
+}
+
+
+
+
+
